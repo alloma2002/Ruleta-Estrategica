@@ -11,8 +11,6 @@ Sistema avanzado de simulación de estrategias de apuestas desarrollado en Bash 
 * **Gestión de Sesión**: Estadísticas en tiempo real, incluyendo pico de dinero alcanzado, contador de jugadas y registro detallado de malas rachas.
 * **Seguridad y Robustez**: Manejo de interrupciones (`Ctrl+C`) para una salida limpia y control de errores en los parámetros de entrada.
 
-
-
 ## 🛠️ Instalación y Uso
 
 1. Clona el repositorio:
@@ -26,8 +24,6 @@ Sistema avanzado de simulación de estrategias de apuestas desarrollado en Bash 
 3. Ejecuta el script:
    ```bash
    ./ruleta.sh -m <cantidad_dinero> -t martingala
-
-
 
 ## Ejemplos de uso:
 

@@ -46,10 +46,6 @@ function helpPanel(){
   
 }
 
-
-
-
-
 #Martingala
 function martingala(){
 
@@ -139,8 +135,7 @@ function martingala(){
        initial_bet=$(($initial_bet*2))
        jugadas_malas+="$random_number "
        echo -e "${yellowColour}[+]${endColour}${grayColour} Tienes un total de${endColour} ${yellowColour}$money€${endColour}\n" 
-       
-
+     
      fi 
      
     else
@@ -164,12 +159,10 @@ function martingala(){
           initial_bet=$(($initial_bet*2))
           jugadas_malas+="$random_number "
           echo -e "${yellowColour}[+]${endColour} ${grayColour}Tienes un total de $money€${endColour}"
-
       fi
     fi
 
    else
-   #Cuanto te quedas a 0
 
    echo -e "\n\n${redColour}====================================================${endColour}"
      echo -e "${redColour}[!] FIN DEL JUEGO: Te has quedado sin blanca${endColour}"
@@ -184,19 +177,10 @@ function martingala(){
      fi
     
      let play_counter+=1
-
    done
-
-
-
    tput cnorm
   }
-
-
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
 
 function inverseLabrouchere(){
 
@@ -470,36 +454,22 @@ function inverseLabrouchere(){
      echo -e "\n${grayColour}Resumen de la sesión:${endColour}"
      echo -e "\t${blueColour}• Jugadas totales:${endColour} ${yellowColour}$jugadas_totales${endColour}"
      echo -e "\t${blueColour}• Dinero máximo alcanzado:${endColour} ${yellowColour}$max_money€${endColour}"
-
-
-
      tput cnorm; exit 1 
- fi
-     
-     
+ fi          
      #sleep 0.5
  done
 
   tput cnrom
-
-
 }
-
-
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
  while getopts "m:t:h" arg; do
    case $arg in
      m) money=$OPTARG;;
      t) technique=$OPTARG;;
      h) helpPanel;;
-
    esac
-
  done
-
-
 
   if [ $money ] && [ $technique ]; then
 

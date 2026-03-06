@@ -26,10 +26,10 @@ Sistema avanzado de simulación de estrategias de apuestas desarrollado en Bash 
    ./ruleta.sh -m <cantidad_dinero> -t martingala
 
 
-Ejemplos de uso:
+## Ejemplos de uso:
 
-Estrategia Martingala:
+**Estrategia Martingala:**
 ./ruleta.sh -m 150 -t martingala
 
-Estrategia Inverse Labrouchere:
+**Estrategia Inverse Labrouchere:**
 ./ruleta.sh -m 150 -t inverseLabrouchere

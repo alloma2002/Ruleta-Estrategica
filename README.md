@@ -27,7 +27,7 @@ Sistema avanzado de simulación de estrategias de apuestas desarrollado en Bash 
 
 3. Ejecuta el script:
    ```bash
-   ./ruleta.sh -m <cantidad_dinero> -t martingala
+   ./ruleta.sh -m <cantidad_dinero> -t <estrategia>
 
 <br>
 

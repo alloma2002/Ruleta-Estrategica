@@ -10,6 +10,8 @@ Sistema avanzado de simulación de estrategias de apuestas desarrollado en Bash 
     * **Inverse Labrouchere**: Gestión de secuencias dinámica basada en la suma de extremos, con checkpoints automáticos para asegurar beneficios.
 * **Gestión de Sesión**: Estadísticas en tiempo real, incluyendo pico de dinero alcanzado, contador de jugadas y registro detallado de malas rachas.
 * **Seguridad y Robustez**: Manejo de interrupciones (`Ctrl+C`) para una salida limpia y control de errores en los parámetros de entrada.
+  
+<br>
 
 ## 🛠️ Instalación y Uso
 

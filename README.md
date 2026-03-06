@@ -2,6 +2,8 @@
 
 Sistema avanzado de simulación de estrategias de apuestas desarrollado en Bash para el análisis de comportamiento en juegos de azar.
 
+<br>
+
 ## 🚀 Características
 
 * **Interfaz Visual**: Uso de códigos de colores ANSI para una experiencia profesional y legible en terminal.
@@ -26,6 +28,8 @@ Sistema avanzado de simulación de estrategias de apuestas desarrollado en Bash 
 3. Ejecuta el script:
    ```bash
    ./ruleta.sh -m <cantidad_dinero> -t martingala
+
+<br>
 
 ## Ejemplos de uso:
 
